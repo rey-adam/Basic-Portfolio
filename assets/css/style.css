@@ -1,5 +1,121 @@
-img {
-	width: 300px;
-	height: 200px;
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 150%;
+	background-color: #DCDCDC;
+}
+
+.header {
+	background-color: #ffffff;
+}
+
+#main-header {
+
+	margin-top: 0px;
+	margin: 0 auto 0 auto;
+	width: 900px;
+	color: purple;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background-color: #ffffff;
+}
+
+
+
+#name {
+	background-color: #4aaaa5;
+	color: white;
+	float: left;
+	text-align: left;
+	width: 70%;
+	font-size: 20px;
+}
+
+#left {
+	float: left;
+	width: 10%;
+	text-align: right;
+	color: gray;
+}
+
+#middle {
+	float: left;
+	width: 10%;
+	text-align: right;
+	color: gray;
+}
+
+#right {
+	float: left;
+	width: 10%;
+	text-align: right;
+	color: gray;
+}
+
+
+#page-shortcuts {
+	color: gray;
+}
+
+
+h2 {
+	font: 50px;
+	color: #4aaaa5;
+}
+
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+	line-height: 150%;
+	margin-top: 20px;
 
 }
+
+#main-bio,
+#contact-info,
+#bio-image {
+	float: left;
+}
+
+#main-bio {
+	width: 60%;
+	background-color: white;
+	margin-right: 10px;
+}
+
+
+#contact-info {
+	width: 30%;
+	background-color: white;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+#bio-image {
+	margin-right: 20px;
+	width: 150px;
+	height: 150px;
+
+}
+
+.image-link {
+	width: 50px;
+	height: 50px;
+}
+
+.site-footer {
+	background-color: #666666;
+	padding: 20px;
+	text-align: center;
+	color: gray;
+	clear: both;
+
+
+}
+
+
