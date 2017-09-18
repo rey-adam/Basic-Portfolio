@@ -19,7 +19,6 @@ body {
 	width: 900px;
 	color: purple;
 	padding-bottom: 20px;
-	padding-top: 20px;
 	background-color: #ffffff;
 }
 
@@ -85,6 +84,7 @@ h2 {
 	width: 60%;
 	background-color: white;
 	margin-right: 10px;
+	padding-left: 10px;
 }
 
 
@@ -117,5 +117,65 @@ h2 {
 
 
 }
+
+/* CONTACT PAGE CSS */
+
+#contact-fill {
+	float: left;
+	background-color: white;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#contact-fill {
+	width: 60%;
+}
+
+.h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#textbox1,
+#textbox2,
+#textbox3 {
+	width: 500px;
+}
+
+#textbox3 {
+	height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
