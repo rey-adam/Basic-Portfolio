@@ -6,6 +6,12 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	line-height: 150%;
 	background-color: #DCDCDC;
+
+	/* background image coded right? */
+	background-image: url("asset/css/swirl_pattern.png");
+}
+.no-deco {
+	text-decoration: none;
 }
 
 .header {
@@ -85,6 +91,8 @@ h2 {
 	background-color: white;
 	margin-right: 10px;
 	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
 }
 
 
@@ -147,6 +155,44 @@ h2 {
 	height: 300px;
 }
 
+
+
+/* Portfolio PAGE CSS */
+
+.Portfolio-page {
+	background-color: white;
+	float: left;
+	width: 60%;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-top: 40px;
+
+
+}
+
+#relative {
+	position: relative;
+	float: left;
+	padding-left: 45px;
+	padding-top: 10px;
+	height: 300px;
+	width: 300px;
+	
+
+}
+
+#absolute1, 
+#absolute2, 
+#absolute3, 
+#absolute4 {
+	background-color: #4aaaa5;
+	position: absolute;
+	text-align: center;
+	bottom: 5px;
+	width: 200px;
+	padding: 10px;
+
+}
 
 
 
