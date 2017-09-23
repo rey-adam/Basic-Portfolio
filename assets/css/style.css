@@ -16,8 +16,10 @@ body {
 	height: 100%;
 	margin: 0;
 
+
+
 	/* background image coded right? */
-	background-image: url("asset/css/swirl_pattern.png");
+	background-image: url("../images/swirl_pattern.png");
 }
 .no-deco {
 	text-decoration: none;
@@ -29,6 +31,7 @@ a {
 
 .header {
 	background-color: #ffffff;
+
 }
 
 #main-header {
@@ -37,8 +40,10 @@ a {
 	margin: 0 auto 0 auto;
 	width: 900px;
 	color: purple;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
+	padding-top: 20px;
 	background-color: #ffffff;
+
 }
 
 
@@ -48,7 +53,7 @@ a {
 	color: white;
 	float: left;
 	text-align: left;
-	width: 70%;
+	width: 30%;
 	font-size: 20px;
 }
 
@@ -94,6 +99,9 @@ h2 {
 /* added on 9/20 but doesnt work! */
 	min-height: 100%;
 
+	/*adding page width*/
+	width: 960px;
+
 }
 
 #main-bio,
@@ -120,6 +128,11 @@ h2 {
 
 }
 
+.inner-container {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
 #bio-image {
 	margin-right: 20px;
 	width: 150px;
@@ -139,7 +152,7 @@ h2 {
 	color: gray;
 	clear: both;
 
-/* added on 9/20 but doesnt work! */
+/* added on 9/20 but doesnt work! */ /*works except for portfolio page?*/
 	height: 50px;
 	margin-top: -50px;
 
@@ -147,10 +160,12 @@ h2 {
 }
 
 /* added on 9/20 but doesnt work! */
-.footer {
-		height: 50px;
+/*.footer {
+	height: 50px;
 	margin-top: -50px;
 }
+
+*/
 
 /* CONTACT PAGE CSS */
 
@@ -159,6 +174,7 @@ h2 {
 	background-color: white;
 	margin-right: 10px;
 	padding-left: 10px;
+	padding-right: 10px;
 	padding-top: 10px;
 }
 
@@ -189,18 +205,17 @@ h2 {
 	background-color: white;
 	float: left;
 	width: 60%;
-	margin-right: 10px;
-	padding-left: 10px;
-	padding-top: 40px;
+	margin-right: 20px;
+	margin-top: 20px;
+
+
 
 
 }
 
-#relative {
+.relative {
 	position: relative;
 	float: left;
-	padding-left: 45px;
-	padding-top: 10px;
 	height: 300px;
 	width: 300px;
 	
@@ -216,12 +231,8 @@ h2 {
 	text-align: center;
 	bottom: 5px;
 	width: 200px;
-	padding: 10px;
 
 }
-
-
-
 
 
 
