@@ -17,7 +17,7 @@ body {
 	margin: 0;
 
 	/* background image coded right? */
-	background-image: url("asset/css/swirl_pattern.png");
+	background-image: url("../images/swirl_pattern.png");
 }
 .no-deco {
 	text-decoration: none;
@@ -27,8 +27,15 @@ a {
 	color: gray;
 }
 
+h1 {
+	display: inline-block;
+}
+
+}
 .header {
 	background-color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
 }
 
 #main-header {
@@ -37,8 +44,11 @@ a {
 	margin: 0 auto 0 auto;
 	width: 900px;
 	color: purple;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
+	padding-top: 20px;
 	background-color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
 }
 
 
@@ -48,7 +58,7 @@ a {
 	color: white;
 	float: left;
 	text-align: left;
-	width: 70%;
+	width: 30%;
 	font-size: 20px;
 }
 
@@ -73,10 +83,10 @@ a {
 	color: gray;
 }
 
-
 #page-shortcuts {
 	color: gray;
 }
+
 
 
 h2 {
@@ -93,6 +103,9 @@ h2 {
 
 /* added on 9/20 but doesnt work! */
 	min-height: 100%;
+
+	/*adding page width*/
+	width: 960px;
 
 }
 
@@ -117,7 +130,14 @@ h2 {
 	background-color: white;
 	text-align: center;
 	margin: 0 auto;
+	float: left;
 
+}
+
+.inner-container {
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-left: 10px;
 }
 
 #bio-image {
@@ -138,19 +158,12 @@ h2 {
 	text-align: center;
 	color: gray;
 	clear: both;
-
-/* added on 9/20 but doesnt work! */
 	height: 50px;
 	margin-top: -50px;
 
 
 }
 
-/* added on 9/20 but doesnt work! */
-.footer {
-		height: 50px;
-	margin-top: -50px;
-}
 
 /* CONTACT PAGE CSS */
 
@@ -159,6 +172,7 @@ h2 {
 	background-color: white;
 	margin-right: 10px;
 	padding-left: 10px;
+	padding-right: 10px;
 	padding-top: 10px;
 }
 
@@ -188,39 +202,43 @@ h2 {
 .Portfolio-page {
 	background-color: white;
 	float: left;
-	width: 60%;
-	margin-right: 10px;
-	padding-left: 10px;
-	padding-top: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 50px;
 
+	/* why do i have to make the margin left this much to center the portfolio section? */
+	margin-left: 190px;
+	width: 650px;
 
 }
 
-#relative {
+.flexwrap {
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
+.image-icon-relative {
+	
 	position: relative;
 	float: left;
-	padding-left: 45px;
-	padding-top: 10px;
-	height: 300px;
-	width: 300px;
-	
+	display: inline-flex;
+	width: 250px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+
 
 }
 
-#absolute1, 
-#absolute2, 
-#absolute3, 
-#absolute4 {
-	background-color: #4aaaa5;
+.overlap-Image-absolute {
+
 	position: absolute;
 	text-align: center;
-	bottom: 5px;
-	width: 200px;
+	background-color: #4aaaa5;
+	margin: 40px;
+	bottom: 0;
 	padding: 10px;
 
 }
-
-
 
 
 
