@@ -31,10 +31,15 @@ h1 {
 	display: inline-block;
 }
 
+p {
+	color: #777777;
 }
-.header {
+
+}
+#header {
 	background-color: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-color: #cccccc;
 
 }
 
@@ -96,7 +101,7 @@ h2 {
 
 
 .container {
-	width: 900px;
+	/*width: 900px;*/
 	margin: 0 auto;
 	line-height: 150%;
 	margin-top: 20px;
