@@ -16,8 +16,6 @@ body {
 	height: 100%;
 	margin: 0;
 
-
-
 	/* background image coded right? */
 	background-image: url("../images/swirl_pattern.png");
 }
@@ -33,15 +31,10 @@ h1 {
 	display: inline-block;
 }
 
-p {
-	color: #777777;
 }
-
-}
-#header {
+.header {
 	background-color: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	border-color: #cccccc;
 
 }
 
@@ -55,6 +48,7 @@ p {
 	padding-top: 20px;
 	background-color: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+
 }
 
 
@@ -102,7 +96,7 @@ h2 {
 
 
 .container {
-	/*width: 900px;*/
+	width: 900px;
 	margin: 0 auto;
 	line-height: 150%;
 	margin-top: 20px;
@@ -146,11 +140,6 @@ h2 {
     margin-left: 10px;
 }
 
-.inner-container {
-    padding: 20px;
-    padding-bottom: 50px;
-}
-
 #bio-image {
 	margin-right: 20px;
 	width: 150px;
@@ -169,10 +158,13 @@ h2 {
 	text-align: center;
 	color: gray;
 	clear: both;
-/* added on 9/20 but doesnt work! */ /*works except for portfolio page?*/
 	height: 50px;
 	margin-top: -50px;
+
+
 }
+
+
 /* CONTACT PAGE CSS */
 
 #contact-fill {
@@ -210,17 +202,14 @@ h2 {
 .Portfolio-page {
 	background-color: white;
 	float: left;
-/*	margin-top: 20px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 	padding-bottom: 50px;
 
-	 why do i have to make the margin left this much to center the portfolio section? 
+	/* why do i have to make the margin left this much to center the portfolio section? */
 	margin-left: 190px;
-	width: 650px;*/
+	width: 650px;
 
-	width: 60%;
-	margin-right: 20px;
-	margin-top: 20px;
 }
 
 .flexwrap {
@@ -228,7 +217,7 @@ h2 {
 	flex-wrap: wrap;
 }
 
-/*.image-icon-relative {
+.image-icon-relative {
 	
 	position: relative;
 	float: left;
@@ -236,13 +225,7 @@ h2 {
 	width: 250px;
 	padding-bottom: 20px;
 	padding-top: 20px;
-*/
 
-.relative {
-	position: relative;
-	float: left;
-	height: 300px;
-	width: 300px;
 
 }
 
@@ -250,12 +233,11 @@ h2 {
 
 	position: absolute;
 	text-align: center;
-/*	background-color: #4aaaa5;
+	background-color: #4aaaa5;
 	margin: 40px;
 	bottom: 0;
-	padding: 10px;*/
-	bottom: 5px;
-	width: 200px;
+	padding: 10px;
+
 }
 
 
@@ -286,7 +268,4 @@ h2 {
 
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 5a116b00dbc30ed195e0840c6a9dca36065dfdea
